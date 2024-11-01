@@ -1,0 +1,27 @@
+/**
+ * Public facing CSS for Techxplorer's Anime List plugin
+ */
+.txp-anime-list .txp-anime-list-cover {
+	width: 130px;
+}
+
+.txp-anime-list .txp-anime-list-cover-img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+.txp-anime-list tr,
+.txp-anime-list td,
+.txp-anime-list table {
+	vertical-align: top;
+	border: 0px;
+}
+
+.txp-anime-list .txp-anime-list-descr .txp-anime-list-alttitle {
+	font-size: 1.2em;
+}
+
+.txp-anime-list .txp-anime-list-descr .txp-anime-list-moreinfo {
+	float: right;
+}
